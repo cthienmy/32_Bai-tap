@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+div div:first-child {
+    background-image: url('b4ef9084598789d9d096.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 67%;
+    object-fit: cover;
+    padding: 40px 0 20px 0;
+
+}
+
+.content {
+    display: inline;
+
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #e1503b;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 40px 0;
+}

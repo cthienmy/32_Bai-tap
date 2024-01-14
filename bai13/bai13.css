@@ -1,0 +1,53 @@
+.container{
+    padding-top: 100px;
+}
+
+.content{
+    width: 80%;
+    margin:auto;
+    display:flex;
+    color:#bababa;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+    font-size:19px;
+    color:#737373;
+    letter-spacing: 1px;
+    
+}
+
+.col2, .col3{
+    flex-basis: 20%;
+}
+ .col4{
+    flex-basis: 26%;
+ }
+
+.col1{
+    flex-basis: 34%;
+    padding-right: 120px;
+}
+
+h3{
+    font-weight:500;
+    margin-bottom: 35px;
+    color:#393939;
+}
+ 
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color:#bababa;
+    letter-spacing: 1px;
+
+}
+
+a:hover, a:active{
+    color:#99d9df;
+}
+ address{
+    font-style: normal;
+ }

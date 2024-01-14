@@ -1,0 +1,90 @@
+.container{
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background{
+    width:80%;
+    margin: auto;
+    background-color: #325c6a;
+}
+
+.content{
+    color: white;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    font-size: 17px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.col1, .col2, .col3{
+    width: 28%;
+    box-sizing: border-box;
+}
+
+.col2, .col3{
+    padding-left: 50px;
+}
+
+.col3 h2{
+    padding-left: 20px;
+}
+
+ul{
+    padding-left: 55px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.col3{
+    position: relative;
+}
+.icon{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 1em;
+    right: 0;
+}
+ 
+.face, .goole, .in, .twitter{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.face{
+    background-color:#3498db ;
+}
+.goole{
+    background-color:#e74c3c ;
+}
+.in{
+    background-color:#2c3e50 ;
+}
+.twitter{
+    background-color:#3498db ;
+}
+ 
+
+.foot{
+    text-align: center;
+    border-top: 1px solid #476d79;
+    padding: 50px 0;
+}
+.foot p{
+    margin: 0;
+}

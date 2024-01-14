@@ -1,0 +1,31 @@
+.container1{}
+
+.container2{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+
+h1{
+    color: #ffce1b;
+    font-size: 48px;
+    margin-bottom: 80px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 50px;
+    row-gap: 70px;
+    justify-content: space-between;
+    font-style: italic;
+    line-height: 26px;
+    color: #525252;
+}
+
+.item{
+    box-sizing: border-box;
+}
+

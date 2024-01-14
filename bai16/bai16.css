@@ -1,0 +1,65 @@
+.container{
+    padding: 50px 0;
+}
+
+.content{
+    width: 52%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    font-weight: 600;
+    color:rgb(58, 58, 58) ;
+}
+
+.form{}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+input, textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #e5e3e3;
+    border-radius: 2px;
+    padding: 10px 20px;
+    outline: none;
+   
+}
+input:focus, textarea:focus{
+    border: 2px solid #b2b0b0;
+}
+.name{
+    width: 48%;
+}
+.email{
+    width: 48%;
+}
+
+textarea{
+    height: 250px;
+   
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: #7dcefd;
+    border:2px solid #6bbbe9;
+    color:white;
+    border-radius: 3px;
+    height: 40px;
+    width: 120px;
+
+}
+
+.foot p{
+    color: #757474;
+}
